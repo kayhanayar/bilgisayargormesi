@@ -1,6 +1,7 @@
 import sys
 import cv2
 import numpy as np
+
 image = cv2.imread("deneme.png")
 
 height,witdh,channels = image.shape
